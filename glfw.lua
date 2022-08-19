@@ -45,7 +45,6 @@ if (_PLATFORM_LINUX) then
 
   buildoptions {
     "-Wall",
-    "-fvisibility=hidden",
   }
 
   defines {
@@ -82,7 +81,6 @@ if (_PLATFORM_MACOS) then
 
   buildoptions {
     "-Wall",
-    "-fvisibility=hidden",
   }
 
   defines {
