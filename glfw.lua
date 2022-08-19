@@ -103,7 +103,6 @@ if (_PLATFORM_MACOS) then
   }
 
   linkoptions {
-    "-Wl,-rpath,@executable_path",
     "-framework Cocoa",
     "-framework IOKit",
     "-framework CoreFoundation",
