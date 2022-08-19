@@ -43,6 +43,9 @@ includedirs {
 
 if (_PLATFORM_LINUX) then
 
+  -- xorg-dev package is required to be installed locally to build
+  -- Build on the oldest version of Linux RTC supports to satisfy GLIBC dynamic link at runtime 
+
   buildoptions {
     "-Wall",
   }
